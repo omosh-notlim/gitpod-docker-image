@@ -5,5 +5,5 @@ tasks:
   - init: |
       docker pull notlim254/node_live_app:voyage0.0.1
       docker run -d -p 3004:3004 notlim254/node_live_app:voyage0.0.1
-    command: |
+  - command: |
       echo "Docker container is running. Access it via localhost:3004"
